@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>custom bootstrap</title>
+    <title>Luxury Cars</title>
     <link rel="stylesheet" href="/style.a6dae8f7.css" class="stylesheet">
   <script src="/style.a6dae8f7.js"></script></head>
   <body>
     <div class="container" style="margin-top: 70px;">
-      <nav class="navbar navbar-expand-sm bg-dark navbar-warning fixed-top">
+      <nav class="navbar navbar-expand-md bg-dark navbar-warning fixed-top">
         <a href="#" class="navbar-brand d-flex align-items-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" aria-hidden="true" class="mr-3" viewBox="0 0 24 24" focusable="false">
             <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
@@ -16,20 +16,34 @@
           </svg>
           <strong>Car-gallery</strong>
         </a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarcollapse">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler navbar-dark" data-toggle="collapse" data-target="#navbarcollapse">
+          <span class="navbar-toggler-icon "></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarcollapse">
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto nav-pills nav-fill">
             <li class="nav-item">
-              <a class="nav-link" href="#">Browse</a>
+              <a class="nav-link" href="#">Homepage</a>
+              
             </li>
+          <div class="dropdown">
+            <li class="nav-item">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Browse</a>
+              <div class="dropdown-menu dropdown-menu-center">
+                <a href="#" class="dropdown-item text-drop">New cars</a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item text-drop">Used cars</a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item text-drop">Rental cars</a>
+            </div>
+            </li>
+          </div>
             <li class="nav-item">
               <a class="nav-link" href="#">For Sale</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">For Rent</a>
             </li>
+            
             <li class="nav-item">
               <a class="nav-link" href="#">My Favorites</a>
             </li>
@@ -47,16 +61,42 @@
 
       <section class="jumbotron text-center">
         <div class="container">
-          <h1>Best luxury cars</h1>
+
+          <h1 class="text text-blood">Best luxury cars</h1>
           <p class="lead text-muted">
             Luxury cars are not just defined by their cosseting ride, extensive levels of technology and refinement, but the level of prestige they bring.
           </p>
           <p>
-            <a href="#" class="btn btn-primary my-2">View more</a>
-            <a href="#" class="btn btn-secondary my-2">luxury section</a>
+            <a href="#" class="btn btn-cool my-2">luxury section</a>
+            <a href="#" class="btn btn-secondary my-2">View more</a>
           </p>
         </div>
       </section>
+      <p>
+        It’s a fact made most evident by the tumbling demand at Canada’s three top premium brands: Mercedes-Benz, BMW and Audi.
+         Sales at the big German luxury players were down by more than 8,000 units,
+         the kind of losses that more than cancel out healthy gains from Lexus, Volvo and Lincoln.
+        </p>
+         <button type="button" class="btn btn-sm btn-outline-cool" data-toggle="modal" data-target="#myModal">Learn more</button>
+         <div class="modal fade" id="myModal">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title">Which car are you looking for ?</h5>
+                      <button type="button" class="close" data-dismiss="modal">
+                          <span>&times;</span>
+                      </button>
+                  </div>
+                  <div class="modal-body">
+                      <p>we have a large collection of top luxury cars that you wan</p>
+                  </div>
+                  <div class="modal-footer">
+                      <button class="btn btn-primary" data-dismiss="modal">Tell us more</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
 
       <div class="container" style="margin-top: 130px;">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -73,7 +113,7 @@
                 <div class="carousel-caption text-left">
                   <h1>Buy your new car</h1>
                   <p>
-                      <a class="btn btn-lg btn-secondary " href="#" role="button">choose one</a>
+                      <a class="btn btn-lg btn-success " href="#" role="button">Choose One</a>
                   </p>
                 </div>
               </div>
@@ -88,7 +128,7 @@
                     A range of luxury cars to select from to rent out and have the luxury feeling
                   </p>
                   <p>
-                    <a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a>
+                    <a class="btn btn-lg btn-success" href="#" role="button">Learn more</a>
                   </p>
                 </div>
               </div>
@@ -103,7 +143,7 @@
                  Browse from our superior collection for cars gallery
                   </p>
                   <p>
-                    <a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a>
+                    <a class="btn btn-lg btn-success" href="#" role="button">Browse gallery</a>
                   </p>
                 </div>
               </div>
@@ -119,6 +159,7 @@
           </a>
         </div>
       </div>
+      <ln></ln>
 
       <div class="album py-5 bg-light">
         <div class="container">
@@ -132,8 +173,8 @@
                   <p class="card-text">This car does what it’s supposed to do superbly and is functionally exceptional. It was conceived as a long-wheelbase saloon, giving it unprecedented torsional rigidity, and the ride is helped by standard air suspension with adaptive dampers</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Rent</button>
+                      <button type="button" class="btn btn-sm btn-outline-cool">Buy</button>
+                      <button type="button" class="btn btn-sm btn-outline-cool">Rent</button>
                     </div>
                     <small class="text-muted">30 mins</small>
                   </div>
@@ -148,8 +189,8 @@
                   <p class="card-text">The spacious interior exudes quality and luxury, the seats are excellent and the driving position is first-rate, making it easy to drive for a car of its size. The heavy bodyshell provides excellent isolation from rough surfaces</p>
                     <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Rent</button>
+                      <button type="button" class="btn btn-sm btn-outline-cool">Buy</button>
+                      <button type="button" class="btn btn-sm btn-outline-cool">Rent</button>
                     </div>
                     <small class="text-muted">1 hr</small>
                   </div>
@@ -164,8 +205,8 @@
                   <p class="card-text">Never has an electric car come along and done onboard luxury better than Audi’s first stab at the zero-emissions template: the E-tron Quattro. This car combines four-wheel drive and a commanding outright performance level with SUV-level space, convenience and usability and with Audi-brand desirability.</p>
                      <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Rent</button>
+                      <button type="button" class="btn btn-sm btn-outline-cool">Buy</button>
+                      <button type="button" class="btn btn-sm btn-outline-cool">Rent</button>
                     </div>
                     <small class="text-muted">1 hr</small>
                   </div>
@@ -173,7 +214,7 @@
               </div>
             </div>
     
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6 col-sm-12">
               <div class="card mb-4 shadow-sm">
                 <img height="100%" width="100%" src="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/first-drives/legacy/tesla-model-s_0.jpg?itok=-Ks8nNbh">
                 <div class="card-body">
@@ -183,8 +224,8 @@
                     With lesser-capacity derivatives now discontinued, there are effectively only two Model Ss to choose from, both using a 100kWh battery pack - and the 'long range' version getting a claimed 379-mile WLTP-certified range that Tesla claims makes it the longest-legged EV in production</p>
                    <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Rent</button>
+                      <button type="button" class="btn btn-sm btn-outline-cool">Buy</button>
+                      <button type="button" class="btn btn-sm btn-outline-cool">Rent</button>
                     </div>
                     <small class="text-muted">1 day</small>
                   </div>

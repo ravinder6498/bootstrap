@@ -1,2 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
 @import "./override";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+h5 {
+  font-family: "Bangers", cursive;
+}
+
+strong {
+  font-family: "Fredoka One", cursive;
+}

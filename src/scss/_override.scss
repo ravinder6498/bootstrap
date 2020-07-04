@@ -1,3 +1,23 @@
+$primary: #34ebeb;
+$success: #bd34eb;
+
+$headings-font-family: "Yellowtail";
+$body-bg: #f0e6e7;
+
+$theme-colors: (
+  "cool": #2262e3,
+  "blood": #a80c21,
+  "drop": #73168c,
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 650px,
+  lg: 800px,
+  xl: 1200px,
+);
+
 .carousel {
   margin-bottom: 4rem;
 }
